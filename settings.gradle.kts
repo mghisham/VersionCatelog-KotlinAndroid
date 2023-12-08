@@ -13,7 +13,10 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Catelog"
+rootProject.name = "My Catalog"
 include(":app")
 include(":features:dashboard")
 include(":features:account")
+include(":features:cart")
+include(":features:post")
+include(":features:alerts")

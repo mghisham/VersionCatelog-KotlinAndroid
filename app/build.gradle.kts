@@ -53,9 +53,11 @@ dependencies {
 
     implementation(platform(libs.compose.bom))
     implementation(libs.bundles.feature.compose)
-
     implementation(project(mapOf("path" to ":features:dashboard")))
     implementation(project(mapOf("path" to ":features:account")))
+    implementation(project(mapOf("path" to ":features:cart")))
+    implementation(project(mapOf("path" to ":features:alerts")))
+    implementation(project(mapOf("path" to ":features:post")))
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
